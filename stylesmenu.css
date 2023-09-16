@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2 family= Poppins:wght@200 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: #06f55e;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+}
+nav ul {
+  list-style: none;
+}
+header {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 30px;
+}
+.inicio ul {
+  display: flex;
+  margin-right: 70px;
+  margin-top: 30px;
+  gap: 33px;
+}
+.logo {
+  color: aliceblue;
+  margin-left: 200px;
+  font-size: 86px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.sessao {
+  max-width: 80%;
+  margin: 0px auto;
+  max-height: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(55, 236, 70);
+  max-width: 34%;
+  align-items: center;
+  border-radius: 10%;
+  padding-top: 36px;
+  margin: 4%;
+}
+
+.series {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filmes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo {
+  font-size: 40px;
+  font-family: "Archivo Narrow", sans-serif;
+}

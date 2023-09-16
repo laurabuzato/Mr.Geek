@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(71, 193, 69);
+  text-align: center;
+}
+h1 {
+  background-color: rgb(10, 2, 2);
+  color: white;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  margin: 25px 50px;
+}
+.Curiosidades {
+  background-color: rgb(34, 175, 116);
+  color: white;
+  width: 320px;
+  padding: 10px;
+  height: 200px;
+  border: 10px solid gray;
+  margin: 0;
+}
+
+.geral {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
